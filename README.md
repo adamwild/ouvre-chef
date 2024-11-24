@@ -60,6 +60,8 @@ ochef -cvall
 ochef -cvb
 ```
 
+![Demo](https://github.com/adamwild/open-data/blob/main/ochef/ochef-w.gif)
+
 ### Making Groceries List
 
 In `config.py`, set the desired folder name that will contain your list of recipes by updating the value of `NAME_SHOPPING_LIST_FOLDER_VAULT`. Note that this folder will be located where your Markdown files are created.
@@ -89,6 +91,8 @@ This command will create a file in the same folder, named after the first line i
 ```
 
 This summary is followed by a list of groceries to buy. You can check off the ingredients you already have and type `y` when prompted to clean up your list, leaving you with your final groceries list.
+
+![Demo](https://github.com/adamwild/open-data/blob/main/ochef/ochef-l.gif)
 
 ### Tagging recipes
 
@@ -131,6 +135,8 @@ ochef -tcount
 # Build the recipe_metadata.csv file. This is not used usually as converting files from Cooklang to Markdown does this automatically
 ochef -mtags
 ```
+
+![Demo](https://github.com/adamwild/open-data/blob/main/ochef/ochef-f.png)
 
 ### Quality of Life: Keeping Config Files Updated
 
@@ -229,6 +235,8 @@ For instance:
 >> title_2 (328): Desserts froids
 335 Crème glacée au yaourt, coulis de mûres, pain de Gènes
 ```
+
+![Demo](https://github.com/adamwild/open-data/blob/main/ochef/ochef_books.gif)
 
 ## Configuration
 
